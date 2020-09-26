@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 12</title>
+</head>
+<body>
+    <h1>Problema 12</h1>
+    <p>Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10% anual durante 6 años. Cual es su salario a cabo de 6 años? ¿Que salario a recibido en cada uno de los 6 años?</p>
+    <fieldset>
+        <legend>Solución</legend>
+        <p>1. Ingresar el salario inicial: (En este caso 1500)</p>
+        <input id="salario" type="text" placeholder="Ingrese el salario">
+        <button id="boton">Calcular</button>
+        <p>2. En cada año se realiza un aumento de 10%, por lo que se hara la siguiente operacion cada vez: (salario) * (110/100)</p>
+        <p id="texto01">Haga el paso 01.</p>
+        <ul style="display: none;" id="lista">
+            <li id="año1"></li>
+            <li id="año2"></li>
+            <li id="año3"></li>
+            <li id="año4"></li>
+            <li id="año5"></li>
+            <li id="año6"></li>
+        </ul>
+    </fieldset>
+    <script src="./script.js"></script>
+</body>
+</html>

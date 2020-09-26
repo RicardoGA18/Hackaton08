@@ -20,7 +20,7 @@ function calcularBono(){
             bono = 1000;
         }
 
-        texto01.innerHTML = `Sus años de antiguedad son ${antiguedad} por lo que le corresponde ${bono}$`;
+        texto01.innerHTML = `Sus años de antiguedad son ${antiguedad} por lo que le corresponde $${bono}`;
     }
     else{
         texto01.innerHTML = "Ingrese bien los datos";
