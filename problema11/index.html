@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 11</title>
+</head>
+<body>
+    <h1>Problema 11</h1>
+    <p>Se les dará un bono por antiguedad a los empleados de una tienda. Si tienen un año se les dará un $100; si tienen 2 años, $200, y así sucesivamente hasta los 5 años. Para los que tengan más de 5 años, el bono será de $1000. Realice un algoritmo que permita determinar el bono que recibirá cada trabajador.</p>
+    <fieldset>
+        <legend>Solución</legend>
+        <p>1. Ingresar los años de antiguedad del trabajador</p>
+        <input id="antiguedad" type="text" placeholder="Años de antiguedad">
+        <button id="boton">Calcular</button>
+        <p>2. Brindar el monto según las condiciones:</p>
+        <ul>
+            <li>Si tiene menor una antiguedad menor a 5 años, su bono será: (Años de antiguedad) x 100$</li>
+            <li>Si tiene más de 5 años de antiguedad, su bono será: 1000$</li>
+        </ul>
+        <p id="texto01">Haga el paso 01.</p>
+    </fieldset>
+    <script src="./script.js"></script>
+</body>
+</html>
