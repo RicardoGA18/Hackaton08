@@ -7,8 +7,8 @@ const paso02 =document.getElementById("paso02");
 
 function sumarArgumentos(){
     //Reciviendo datos
-    let argumento1 = parseInt(document.getElementById("argumento1").value);
-    let argumento2 = parseInt(document.getElementById("argumento2").value);
+    let argumento1 = parseFloat(document.getElementById("argumento1").value);
+    let argumento2 = parseFloat(document.getElementById("argumento2").value);
     
     //Validando datos
     if((argumento1)&&(argumento2)){
